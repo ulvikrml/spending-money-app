@@ -1,0 +1,11 @@
+.product-footer{
+    display: flex;
+    height: 20px;
+    align-items: center;
+}
+.product-price{
+    margin-inline: 15px;
+}
+.product{
+    width: 300px;
+}

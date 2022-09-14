@@ -1,0 +1,68 @@
+[
+    {
+        "id" : 1,
+        "title" : "Big Mac",
+        "price" : 2
+    },
+    {
+        "id" : 2,
+        "title" : "Flip Flops",
+        "price" : 3
+    },
+    {
+        "id" : 3,
+        "title" : "Coca-Cola Pack",
+        "price" : 5
+    },
+    {
+        "id" : 4,
+        "title" : "Movie Ticket",
+        "price" : 12
+    },
+    {
+        "id" : 5,
+        "title" : "Book",
+        "price" : 15
+
+    },
+    {
+        "id" : 6,
+        "title" : "Lobster Dinner",
+        "price" : 45
+    },
+    {
+        "id" : 7,
+        "title" : "Video Game",
+        "price" : 60
+    },
+    {
+        "id" : 8,
+        "title" : "Amazon Echo",
+        "price" : 99
+    },
+    {
+        "id" : 9,
+        "title" : "Year of Netflix",
+        "price" : 100
+    },
+    {
+        "id" : 10,
+        "title" : "Air Jordans",
+        "price" : 125
+    },
+    {
+        "id" : 11,
+        "title" : "Airpods",
+        "price" : 199
+    },
+    {
+        "id" : 12,
+        "title" : "Gaming Console",
+        "price" : 299
+    },
+    {
+        "id" : 13,
+        "title" : "Drone",
+        "price" : 350
+    }
+]
