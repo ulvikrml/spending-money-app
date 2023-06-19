@@ -1,21 +1,26 @@
-import React from 'react'
+import React from 'react';
+import './Basket.css';
 
-const Basket = ({data, clearAll, spendMoney}) => {
-    console.log(data);
+const Basket = ({ data, clearAll, spendMoney }) => {
+  console.log(data);
   return (
-    <div>
-        <p>
-        Product you have bought:
-        </p>
-        <ul>
-        {data.map(item=>{
-            return <li>{item.title} - {item.amount}</li>
+    <div className="basket-container">
+      <p className="basket-title">Products you have bought:</p>
+      <ul className="basket-list">
+        {data.map((item) => {
+          return (
+            <li className="basket-item" key={item.id}>
+              {item.title} - {item.amount}
+            </li>
+          );
         })}
-        </ul>
-        <p>You have spent ${spendMoney}</p>
-        <button onClick={clearAll}>Clear All</button>
+      </ul>
+      <p className="basket-total">You have spent ${spendMoney}</p>
+      <button className="basket-clear-button" onClick={clearAll}>
+        Clear All
+      </button>
     </div>
-  )
-}
+  );
+};
 
-export default Basket
+export default Basket;

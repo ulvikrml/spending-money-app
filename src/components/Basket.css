@@ -1,0 +1,45 @@
+/* Basket.css */
+
+.basket-container {
+    background-color: #22c388;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .basket-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .basket-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .basket-item {
+    margin-bottom: 5px;
+  }
+  
+  .basket-total {
+    margin-block: 10px;
+    font-weight: bold;
+  }
+  
+  .basket-clear-button {
+    background-color: lightgray;
+    color: #22c388;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .basket-clear-button:hover {
+    background-color: #d3d3d3;
+  }
+  

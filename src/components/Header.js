@@ -3,7 +3,12 @@ import './Header.css'
 
 const Header = (props) => {
   return (
-    <div className='header-title'>You have ${props.money} on balance</div>
+    <header>
+      <h1 className='header-title'>Spend All Your Money</h1>
+      <div className='price-card'>
+      <p className='price-text'>${props.money}</p>
+      </div>
+    </header>
   )
 }
 

@@ -1,7 +1,16 @@
+header{
+    text-align: center;
+}
 .header-title{
+    color: #333333;
+    padding: 20px 0px 20px;
+}
+.price-card{
     width: 100%;
-    display: flex;
-    justify-content: center;
-    font-size: 25px;
-    margin-bottom: 15px;
+    background: #22C388;
+    padding: 15px;
+}
+.price-text{
+    color: white;
+    font-size: 30px;
 }
